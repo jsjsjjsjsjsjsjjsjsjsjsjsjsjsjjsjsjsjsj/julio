@@ -11,27 +11,32 @@ body {
 }
 
 * {
-    margin: 50;
-    padding: 50;
+    margin: 60;
+    padding: 60;
 }
 
 .principal {
-    background-image: url(minecraft.jpg);
+    background-image: url(mine.jpg);
 }
 
 .container{
-    height: 100vh;
+    height: 130vh;
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 50% 50%;
 }
 
 .container__botao{
-    background-color: var(--botao-branco);
-margin:-bottom: 1em ;
+    background-color: var(--botao-preto);
+    border-radius: 5px;
+    padding: lem;
+    color: var(--black-principal)
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .container__caixa{
-    margin:0 6em;
+    margin:2 11em;
 }
 
 .botao_secundario{
@@ -40,12 +45,12 @@ margin:-bottom: 1em ;
 }
 
 .container__aviso{
-    font-size: 12px;
+    font-size: 50px;
     color:var(--cinza-secundario);
 }
 
 .container__titulo{
-  font-size: 80px;
+  font-size: 100px;
   font-weight: 1000;
 }
 
